@@ -220,3 +220,11 @@ Se vuelve aplicar una operación **lógica AND**.
 - [Debian Wiki - Samba Server](https://wiki.debian.org/Samba/Server) - Guía práctica paso a paso para la configuración de carpetas compartidas en sistemas Debian/Ubuntu.
 ## 9. Segunda Versión
 Estos son los cambios para la segunda versión del documento
+
+|  Tabla | Tercera | Versión|
+| :---- | :----: | :----: | :----: |
+| xxxxxxx | xxxxxxx | xxxxxxx | xxxxxxx | 
+|
+| xxxxxxx | xxxxxxx | xxxxxxx | xxxxxxx |
+|
+| xxxxxxx | xxxxxxx | xxxxxxx | xxxxxxx |
