@@ -223,8 +223,8 @@ Estos son los cambios para la segunda versión del documento
 
 |  Tabla | Tercera | Versión|
 | :---- | :----: | :----: | :----: |
-| xxxxxxx | xxxxxxx | xxxxxxx | xxxxxxx | 
+| abcdef | 123456 | ACBDEF | 654321 | 
 |
-| xxxxxxx | xxxxxxx | xxxxxxx | xxxxxxx |
+| 101010 | 010101 | 111000 | 000111 |
 |
 | xxxxxxx | xxxxxxx | xxxxxxx | xxxxxxx |
