@@ -19,6 +19,7 @@ Este documento contiene una pequeña guía para configurar un servidor Samba, qu
   - [7.1 Como afecta create mask a los permisos](#71-como-afecta-create-mask-a-los-permisos)
   - [7.2 Como afecta force create mode a los permisos](#72-como-afecta-force-create-mode-a-los-permisos)
 - [8. Referencias](#8-referencias)
+- [9. Segunda Versión](#9-segunda-version)
 ---
 ## 1. Introducción
 **Samba** es un software libre del protocolo de red **SMB/CIFS** que permite compartir archivos e impresoras en red de forma transparente entre sistemas operativos **Linux/Unix** y sistemas **Windows**.
@@ -217,3 +218,5 @@ Se vuelve aplicar una operación **lógica AND**.
 - [Documentación oficial de Samba ]( https://www.samba.org/samba/docs/) - Guías oficiales, manuales de configuración y sintaxis de smb.conf.
 - [Página de manual de smb.conf](https://www.samba.org/samba/docs/current/man-html/smb.conf.5.html) - Manual con todas las directivas de configuración disponibles.
 - [Debian Wiki - Samba Server](https://wiki.debian.org/Samba/Server) - Guía práctica paso a paso para la configuración de carpetas compartidas en sistemas Debian/Ubuntu.
+## 9. Segunda Versión
+Estos son los cambios para la segunda versión del documento
