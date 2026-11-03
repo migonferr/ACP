@@ -78,7 +78,7 @@ sudo nano /etc/samba/smb.conf
    read only = no
    valid users = sambauser
 ```
-![smb.conf](actividad3/imagen.png)
+![smb.conf](imagen/imagen.png)
 En la imagen vemos como debe quedar `smb.conf` con esta configuración mínima 
 
 3. Reiniciamos el servicio y comprobamos su estado	
@@ -221,7 +221,7 @@ Se vuelve aplicar una operación **lógica AND**.
 ## 9. Segunda Versión
 Estos son los cambios para la segunda versión del documento
 
-|  Tabla | Tercera | Versión|
+|  |Tabla | Tercera | Versión|
 | :---- | :----: | :----: | :----: |
 | abcdef | 123456 | ACBDEF | 654321 | 
 |
