@@ -19,7 +19,7 @@ Este documento contiene una pequeña guía para configurar un servidor Samba, qu
   - [7.1 Como afecta create mask a los permisos](#71-como-afecta-create-mask-a-los-permisos)
   - [7.2 Como afecta force create mode a los permisos](#72-como-afecta-force-create-mode-a-los-permisos)
 - [8. Referencias](#8-referencias)
-- [9. Segunda Versión](#9-segunda-version)
+- [9. Segunda Versión](#9-segunda-versión)
 ---
 ## 1. Introducción
 **Samba** es un software libre del protocolo de red **SMB/CIFS** que permite compartir archivos e impresoras en red de forma transparente entre sistemas operativos **Linux/Unix** y sistemas **Windows**.
@@ -182,9 +182,7 @@ force directory mode = 0770
 |  | Propietario (rwx) | Grupo (rwx) |Otros (rwx)|
 | :---- | :----: | :----: | :----: |
 | **Cliente (0777)** | 111 | 111 | 111 | 
-|
 | **create mask (0660)**  | 110 | 110 | 000 |
-|
 | **(Se aplica Máscara AND) Resultado (0660)** | 110 | 110 | 000 |
 
 **Caso 2: Desde el cliente se crea un archivo y se definen menos permisos (0440):**
@@ -194,9 +192,7 @@ Se vuelve aplicar una operación **lógica AND**.
 |  | Propietario (rwx) | Grupo (rwx) |Otros (rwx)|
 | :---- | :----: | :----: | :----: |
 | **Cliente (0440)** | 100 | 100 | 000 | 
-|
 | **create mask (0660)**  | 110 | 110 | 000 |
-|
 | **(Se aplica Máscara AND) Resultado (0440)** | 100 | 100 | 000 |
 
 > A la práctica *create mask* establece un tope en los permisos que podrán recibir los archivos creados desde la red.
@@ -208,9 +204,7 @@ Se vuelve aplicar una operación **lógica AND**.
 |  | Propietario (rwx) | Grupo (rwx) |Otros (rwx)|
 | :---- | :----: | :----: | :----: |
 | **Cliente (0440)** | 100 | 100 | 000 | 
-|
 | **create mask (0020)**  | 000 | 010 | 000 |
-|
 | **(Se aplica Máscara OR) Resultado (0460)** | 100 | 110 | 000 |
 
 > *Force create mode* establece permisos mínimos para los archivos 
@@ -224,9 +218,7 @@ Estos son los cambios para la segunda versión del documento
 |  |Tabla | Tercera | Versión|
 | :---- | :----: | :----: | :----: |
 | abcdef | 123456 | ACBDEF | 654321 | 
-|
 | 101010 | 010101 | 111000 | 000111 |
-|
 | xxxxxxx | xxxxxxx | xxxxxxx | xxxxxxx |
 
 ## Información del proyecto
