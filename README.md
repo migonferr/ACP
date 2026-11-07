@@ -228,3 +228,8 @@ Estos son los cambios para la segunda versión del documento
 | 101010 | 010101 | 111000 | 000111 |
 |
 | xxxxxxx | xxxxxxx | xxxxxxx | xxxxxxx |
+
+## Información del proyecto
+Esta documentación se ha elaborado utilizando Markdown.
+El control de versiones se realiza mediante Git
+y el repositorio remoto se encuentra alojado en GitHub.
