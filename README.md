@@ -233,3 +233,8 @@ Estos son los cambios para la segunda versión del documento
 Esta documentación se ha elaborado utilizando Markdown.
 El control de versiones se realiza mediante Git
 y el repositorio remoto se encuentra alojado en GitHub.
+
+## Próximas mejoras
+- Mejora 1
+- Mejora 2
+- Mejora 3
